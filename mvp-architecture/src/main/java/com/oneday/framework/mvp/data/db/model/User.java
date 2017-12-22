@@ -37,7 +37,7 @@ public class User {
     }
 
     public Long getId() {
-        return id;
+        return this.id;
     }
 
     public void setId(Long id) {
@@ -45,7 +45,7 @@ public class User {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public void setName(String name) {
@@ -53,7 +53,7 @@ public class User {
     }
 
     public String getCreatedAt() {
-        return createdAt;
+        return this.createdAt;
     }
 
     public void setCreatedAt(String createdAt) {
@@ -61,10 +61,12 @@ public class User {
     }
 
     public String getUpdatedAt() {
-        return updatedAt;
+        return this.updatedAt;
     }
 
     public void setUpdatedAt(String updatedAt) {
         this.updatedAt = updatedAt;
     }
+
+    
 }
